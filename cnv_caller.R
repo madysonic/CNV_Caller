@@ -3,10 +3,10 @@
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Date for file name suffix in format YYYYMMDD
-# This is the only field to edit
+# This is the only field to edit each time
 date <- "220525"
 
-# Load sample sheet file
+# Load sample sheet file (ensure the filepath is your own working directory)
 sampleSheet <- read.csv(paste0("~/local_NF_ALL_runs/variants/samplesheet_", date, ".csv"))
 
 # Load libraries
